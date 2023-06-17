@@ -49,7 +49,7 @@ for i, filename in enumerate(ssList):
 # Download to PDF,XLSX, CSV, HTML, TSV (Tab Seperated Variables)
 # downloads to CWD
 ss = ezsheets.Spreadsheet('Ch14_Get_Name_email (Responses)')
-Pss.downloadAsExcel() # Downloads the spreadsheet as an Excel file.
+ss.downloadAsExcel() # Downloads the spreadsheet as an Excel file.
 ss.downloadAsODS() # Downloads the spreadsheet as an OpenOffice file.
 ss.downloadAsCSV() # Only downloads the first sheet as a CSV file.
 ss.downloadAsTSV() # Only downloads the first sheet as a TSV file.
