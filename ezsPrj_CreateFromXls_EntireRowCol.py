@@ -1,7 +1,8 @@
 # Create Google-Sheet from Excel 
-#        Upload .xlsx
-#        Update cells/rows
-#        on exit EZSheet saved as Google-Sheet
+#        get ENTIRE Row
+#        Update  ENTIRE Row
+#        get ENTIRE Column 
+#        Update  ENTIRE Column
 import ezsheets, sys
 ss = ezsheets.upload('C:/Users/ben/OneDrive/Documents/Gaba_Docs/development/Python/Python_Ben/pgmInput/produceSales.xlsx')
 sheet = ss[0]
